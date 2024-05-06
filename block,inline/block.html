@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline, Block, Inline-Block Example</title>
+<style>
+    /* General styling for all containers */
+.inline-container, .block-container, .inline-block-container {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Inline elements */
+.inline {
+    display: inline; /* Default for span */
+    background-color: lightblue;
+    padding: 5px;
+    
+}
+
+.inline1{
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* Block elements */
+.block {
+    display: block; /* Default for div */
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+/* Inline-block elements */
+.inline-block {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 5px;
+    width: 200px;
+}
+
+</style>
+</head>
+<body>
+    <h1>Display Types in CSS</h1>
+    <h2>Inline Elements</h2>
+    <div class="inline-container">
+        <div class="inline inline1">Inline 1</div>
+        <div class="inline">Inline 2</div>
+        <div class="inline">Inline 3</div>
+    </div>
+    
+    <h2>Block Elements</h2>
+    <div class="block-container">
+        <div class="block">Block 1</div>
+        <div class="block">Block 2</div>
+        <div class="block">Block 3</div>
+    </div>
+    
+    <h2>Inline-Block Elements</h2>
+    <div class="inline-block-container">
+        <div class="inline-block">Inline-Block 1</div>
+        <div class="inline-block">Inline-Block 2</div>
+        <div class="inline-block">Inline-Block 3</div>
+    </div>
+</body>
+</html>

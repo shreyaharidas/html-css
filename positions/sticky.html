@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .container {
+      height: 2000px; /* To enable scrolling */
+      background: linear-gradient(to bottom, #f0f0f0, #a0a0a0);
+    }
+    .sticky {
+      position: sticky;
+      top: 10px; /* The point where it becomes fixed */
+      background-color: lightgray;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+    A sticky-positioned element behaves like a relative element until a specified scroll point, after which it behaves like a fixed element.
+  <div class="container">
+    <div class="sticky">Sticky Position</div>
+    <div>Scroll down to see the sticky effect.</div>
+    <div style="margin-top: 1000px;">Here's more content to scroll through.</div>
+  </div>
+</body>
+</html>

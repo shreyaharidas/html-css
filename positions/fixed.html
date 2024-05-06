@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .fixed {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: lightgray;
+      padding: 10px;
+      z-index: 1000; /* Keep it on top */
+    }
+    .content {
+      height: 2000px; /* Make the page scrollable */
+      background: linear-gradient(to bottom, #f0f0f0, #a0a0a0);
+    }
+  </style>
+</head>
+<body>
+    A fixed-positioned element is positioned relative to the viewport and doesn't move when scrolling.
+  <div class="fixed">Fixed Position</div>
+  <div class="content">
+    Scroll down to see the fixed element.
+  </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+p {
+    font-size: 30px;
+        }
+    
+        .basic_info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+        #nameid{
+            color: red !important; 
+            font-size: 100px; background-color: aqua;
+        }
+    
+        table{
+            border-color: black;
+            ;
+        }
+    
+        a:hover{
+            color: green;
+        }

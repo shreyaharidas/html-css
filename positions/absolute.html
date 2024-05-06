@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .container {
+      position: relative;
+      border: 2px solid black;
+    }
+    .item {
+      background-color: lightgray;
+      padding: 10px;
+      margin: 10px;
+    }
+    .absolute {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+    An absolute-positioned element is removed from the normal flow and positioned relative to its closest positioned ancestor (not necessarily its direct parent).
+  <div class="container">
+    <div class="item">Item 1 (Static)</div>
+    <div class="item absolute">Item 2 (Absolute)</div>
+    <div class="item">Item 3 (Static)</div>
+  </div>
+</body>
+</html>

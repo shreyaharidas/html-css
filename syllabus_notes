@@ -1,0 +1,34 @@
+multiple classnames/id can be used
+naming convetions
+css positions
+css flexbox
+css grid
+css animations
+css transform
+margin-auto
+float
+folder structure
+naming conventions
+meta name viewport
+
+block, inline block
+viewport
+
+
+flexbox
+display: flex
+flex direction
+justify content
+align items
+flex-wrap/ align-content
+flex-shrink
+flex-grow/ flex-basis
+align-self
+
+css grid
+display:grid
+grid-template-colums
+grid-template-rows
+grid-column-gap
+grid-column: span 2
+justify content, align-items, align content
